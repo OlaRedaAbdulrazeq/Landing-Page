@@ -453,47 +453,95 @@ figure .figureCaption {
 
 /* PAGE 5 */
 .page-5 {
-    position: relative;
+    position:relative;
+    margin-top: 5rem;
+    color: white;
 }
 .page-5 img{
-    padding-top: 6%;
+    min-height:31.563rem;
     width: 100%;
-    height: auto;
+    
 }
+
 .page-5-div {
-    background-color: rgba(0, 0, 0, 0.57);
-    border-radius:20px ;
-    border: none;
-   padding:2% 3.051%;
-   margin: 20%;
-   color: white;
     position: absolute;
-    top:-15%;
-    left: 0;
+    display:flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    background-color: rgba(0, 0, 0, 0.57);
+    max-width: 53.625rem;
+    min-height: 19.438rem;
+    border-radius: 20px;
+    top: 6.125rem;
+    left: 19.188rem; 
+    right: 18.188rem;
     text-align: center;
     backdrop-filter: blur(24px);
-    backface-visibility: hidden;
-
+    letter-spacing: 0.02em;
+    padding: 2.75rem;
+    z-index: 1;
 }
 
 .page-5-div h2{
-    padding:1% 2%;
+
     font-size: 42px;
     font-weight: 600;
     line-height: 50.83px;
-    letter-spacing: 0.02em;
-
+    letter-spacing: inherit;
 }
 
 .page-5-div p {
-    padding:1% 3%;
+
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
-    letter-spacing: 0.02em;
-
+    letter-spacing: inherit;
 }
+
+@media (max-width:1300px) {
+   
+    .page-5-div {
+        max-width: 56.625rem;
+        right: 12.188rem; 
+        left: 12.188rem; 
+        padding: 1.5rem;
+        row-gap: 1.75rem;
+    }
+    .page-5-div h2{
+
+        font-size: 39px; 
+    }
+    .page-5-div p {
+
+        font-size: 18px;
+    }
+    }
+
+@media (max-width:1020px) {
+        .page-5-div{
+        top: 3.125rem;
+        row-gap:1rem;
+        }
+        .page-5-div h2{
+            font-size: 30px; 
+        }
+    }
+
+@media (max-width:925px) {
+        .page-5-div{
+        top: 2.125rem;
+        row-gap:0.5rem;
+        }
+        .page-5-div h2{
+        font-size: 26px; 
+        }
+    }
 /* END PAGE 5 */
+
+
+
+
+
 /* PAGE 6 */
 .page-6 {
     width: 100%;
