@@ -1161,7 +1161,7 @@ div.page-6-column1 {
  .container1 ul{
     column-gap: 1rem ;
 }
-.email-container::after{
+.email-container button{
     left: 13.7rem;
 }
 }
