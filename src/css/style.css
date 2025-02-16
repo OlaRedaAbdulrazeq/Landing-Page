@@ -1125,7 +1125,7 @@ div.page-6-column1 {
     border: 1px solid rgba(179, 189, 199, 1);
     letter-spacing: inherit;
  }
- .email-container button{
+ .email-container .button{
    position: absolute;
     border: none;
     color: white;
@@ -1135,7 +1135,7 @@ div.page-6-column1 {
     top: 0;
     left: 17.7rem;
  }
- .email-container button:hover{
+ .email-container .button:hover{
     cursor: pointer ;
  }
  .container2 {
@@ -1161,7 +1161,7 @@ div.page-6-column1 {
  .container1 ul{
     column-gap: 1rem ;
 }
-.email-container button{
+.email-container .button{
     left: 13.7rem;
 }
 }
